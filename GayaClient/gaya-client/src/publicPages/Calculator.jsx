@@ -10,6 +10,9 @@ const Calculator = () => {
     const [operations, setOperations] = useState([]);
     const [result, setResult] = useState("");
     const [error, setError] = useState("");
+    const [showHystory, setShowHystory] = useState(false);
+    const [lastHystory, setLastHystory] = useState([]);
+    const [hystoryCount, setHystoryCount] = useState(0);
 
     useEffect(() => {
         getOperations().then((res) => {
@@ -45,7 +48,8 @@ const Calculator = () => {
                 setError(res.message + "\r\n" + res.response.data.Message);
         } else {
             if (res.status === 200){
-                console.log(res.data)
+                console.log("getLastHystory res.data" ,res.data)
+                setLastHystory(res.data)
             } else {
                 console.log(res)
             }
@@ -59,7 +63,9 @@ const Calculator = () => {
                 setError(res.message + "\r\n" + res.response.data.Message);
         } else {
             if (res.status === 200){
-                console.log(res.data)
+                console.log("getHystoryCount res.data", res.data)
+                setHystoryCount(res.data)
+                setShowHystory(true)
             } else {
                 console.log(res)
             }
@@ -70,7 +76,7 @@ const Calculator = () => {
         e.preventDefault();
         calculate()
         getLastHystory()
-
+        getHystoryCount()
       };
 
     const styles = {
@@ -92,6 +98,40 @@ const Calculator = () => {
         form: {
             display: "inline-block"
         }
+    }
+
+    const hystoryView = () => {
+        return <>
+            {showHystory && 
+            <div style={styles.form}>
+                <b>Hystory: </b>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Script</td>
+                            <td>Field1</td>
+                            <td>Field2</td>
+                            <td>Result</td>
+                            <td>Date</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {lastHystory.map((item) => (
+                        <tr key={item.ID}>
+                            <td>{item.Name}</td>
+                            <td>{item.Script}</td>
+                            <td>{item.Field1}</td>
+                            <td>{item.Field}2</td>
+                            <td>{item.Result}</td>
+                            <td>{item.Date}</td>
+                        </tr>
+                        ))}
+                    </tbody>
+                </table>
+                Total for {operation.Name}: {hystoryCount}
+            </div>}
+        </>
     }
 
     return (
@@ -124,9 +164,7 @@ const Calculator = () => {
                 <div style={styles.resultPanel}>
                     <b>RESULT: </b>{result}
                 </div>
-                <div>
-                    <b>Hystory: </b>
-                </div>
+                {hystoryView()}
             </form>
 
         </>
