@@ -1,0 +1,10 @@
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\bin\Debug\Models.dll.config
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\bin\Debug\Models.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\bin\Debug\Models.pdb
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\bin\Debug\EntityFramework.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\bin\Debug\EntityFramework.xml
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\obj\Debug\Models.csproj.CopyComplete
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\obj\Debug\Models.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\Models\obj\Debug\Models.pdb

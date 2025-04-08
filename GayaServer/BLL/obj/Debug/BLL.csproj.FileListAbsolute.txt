@@ -1,0 +1,13 @@
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\BLL.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\BLL.pdb
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\Models.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\NCalc.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\Models.pdb
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\Models.dll.config
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\obj\Debug\BLL.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\obj\Debug\BLL.pdb
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\EntityFramework.dll
+D:\AvodotBaitMiRaaionotAvoda\ProektGaya\GayaServer\BLL\bin\Debug\EntityFramework.xml
