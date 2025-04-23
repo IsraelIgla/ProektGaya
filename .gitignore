@@ -1,0 +1,62 @@
+## Build folders
+bin/
+obj/
+**/bin/
+**/obj/
+
+## Rider & VS Code
+.idea/
+.vscode/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.log
+
+## Visual Studio stuff
+.vs/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET
+wwwroot/
+
+## Others
+*.dbmdl
+*.bak
+*.tmp
+*.swp
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# OS-generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
